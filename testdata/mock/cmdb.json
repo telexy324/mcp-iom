@@ -1,0 +1,40 @@
+[
+  {
+    "system_id": "SYS001",
+    "system_name": "示例支付系统",
+    "components": [
+      {
+        "ci_id": "CI001",
+        "type": "application_server",
+        "name": "app-example",
+        "host": "app-example"
+      },
+      {
+        "ci_id": "CI002",
+        "type": "database",
+        "name": "db-example",
+        "host": "db-example"
+      }
+    ],
+    "dependencies": [
+      {
+        "source_ci_id": "CI001",
+        "target_ci_id": "CI002",
+        "relation": "depends_on"
+      }
+    ]
+  },
+  {
+    "system_id": "SYS002",
+    "system_name": "无关示例系统",
+    "components": [
+      {
+        "ci_id": "CI003",
+        "type": "application_server",
+        "name": "app-example",
+        "host": "app-example"
+      }
+    ],
+    "dependencies": []
+  }
+]

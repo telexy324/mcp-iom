@@ -1,0 +1,30 @@
+[
+  {
+    "system_id": "SYS001",
+    "change_id": "CHG001",
+    "record_type": "change",
+    "ci_ids": [
+      "CI001"
+    ],
+    "title": "调整应用连接池参数",
+    "description": "虚构示例：调整最大连接数",
+    "start_time": "2026-11-13T13:30:00+08:00",
+    "end_time": "2026-11-13T13:45:00+08:00",
+    "time_type": "actual",
+    "status": "completed"
+  },
+  {
+    "system_id": "SYS002",
+    "change_id": "CHG002",
+    "record_type": "change",
+    "ci_ids": [
+      "CI003"
+    ],
+    "title": "调整应用连接池参数",
+    "description": "虚构示例：调整最大连接数",
+    "start_time": "2026-11-13T13:30:00+08:00",
+    "end_time": "2026-11-13T13:45:00+08:00",
+    "time_type": "actual",
+    "status": "completed"
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "system_id": "SYS001",
+    "alert_id": "ALT001",
+    "ci_id": "CI001",
+    "name": "数据库连接超时",
+    "severity": "critical",
+    "first_seen": "2026-11-13T14:01:00+08:00",
+    "last_seen": "2026-11-13T14:05:00+08:00",
+    "count": 12,
+    "summary": "虚构应用连接超时"
+  },
+  {
+    "system_id": "SYS002",
+    "alert_id": "ALT002",
+    "ci_id": "CI003",
+    "name": "数据库连接超时",
+    "severity": "critical",
+    "first_seen": "2026-11-13T14:01:00+08:00",
+    "last_seen": "2026-11-13T14:05:00+08:00",
+    "count": 12,
+    "summary": "虚构应用连接超时"
+  }
+]
